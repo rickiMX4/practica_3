@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #barrasuperior{
     height: 100px;
@@ -9,6 +10,10 @@
     grid-template-columns: auto 200px 200px 100px;
     color: white;
     align-items: center;
+}
+#menuarriba1{
+    margin-left: 20px;
+    font-size: 140%;
 }
 #seccionmedio{
     display: flex;
