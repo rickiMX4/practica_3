@@ -12,6 +12,11 @@
     color: white;
     align-items: center;
 }
+#emailCK{
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+}
 #menuarriba1{
     margin-left: 100px;
     font-size: 150%;
@@ -19,11 +24,70 @@
 #seccionmedio{
     display: flex;
     height: 100vh;
-    background-color: #e9e9e9;
+    background-color: #f3f3f3;
 }
 #seccionmedio #medioIZ{
     width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 #seccionmedio #medioDR{
+    display: flex;
+    flex-direction: column;
     width: 40%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#Login{
+    height: 30px;
+    width: 50px;
+    background-color: #579dff;
+    border: 1px solid rgb(0, 0, 130);
+    color: white;
+}
+#sexoIN{
+    width: 80px;
+}
+#mesIN{
+    width: 50px;
+}
+#diaIN{
+    width: 50px;
+}
+#añoIN{
+    width: 70px;
+}
+input{
+    height: 30px;
+}
+#medioDR div{
+    margin-bottom: 30px;
+}
+#datos{
+    color: #042759;
+    font-size: 20px;
+}
+#opciones{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 3px solid black;
+}
+#contimg{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+#contimg img{
+    width: 50vw;
+    height: 50vh;
+}
+#signup{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(78, 229, 78);
+    border: 3px solid rgb(12, 90, 12);
+    margin: 40px;
+    color: white;
 }
